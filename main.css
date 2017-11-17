@@ -1,8 +1,52 @@
-/* Styles for Product Page Customization */
-/* NOTE: Do not edit the Bootstrap CSS files. */
 
 body {
     padding-top: 30px;
     padding-bottom: 20px;
-    color: green;
+   
+}
+
+#about h2, #product h2 {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  margin-top: 0;
+  font-size: 40px;
+}
+
+.purchasebox h3 {
+  padding-bottom: 20px;
+}
+
+.navbar li {
+      margin-right: 10px;
+}
+
+.navbar li a {
+   padding-left: 0;
+}
+
+footer .navbar-default {
+  background: transparent;
+  border: 0;
+}
+
+.img-responsive {
+  margin: auto;
+}
+
+.purchase {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;  
+}
+
+.purchasebox {
+    border: 3px black dotted;
+      width: 400px;
+    margin: auto;
+    height: 190px;
+  max-width: 100%;
+  padding-top: 20px; 
+  padding-bottom: 20px;
+  background-color: yellow;
 }
