@@ -50,3 +50,17 @@ footer .navbar-default {
   padding-bottom: 20px;
   background-color: yellow;
 }
+
+#space {
+  background-image: url("newcityphoto.jpg");
+      height: 500px;
+    max-width: 100;
+    background-attachment: fixed;
+}
+
+#space2 {
+  background-image: url("spacephoto2.jpg");
+      height: 500px;
+    max-width: 100;
+    background-attachment: fixed;
+}
