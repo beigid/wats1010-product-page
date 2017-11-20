@@ -142,10 +142,20 @@ body {
    font-family: "Arial", sans-serif;
 }
 
+
 .img-responsive {
   margin: auto;
   width: 100%;
 }
+
+
+#about, #product {
+      background-image: linear-gradient(to bottom, #FFF, #2D3E9A);
+  padding-bottom: 70px;
+  border-top:     20px solid rgba(189, 189, 189, 0.5);
+}
+
+
 
 .purchase {
   text-align: center;
@@ -163,6 +173,8 @@ body {
   padding-bottom: 20px;
   background-color: yellow;
 }
+
+
 
 #space {
   background-image: url("newcityphoto.jpg");
@@ -187,6 +199,7 @@ body {
   margin-left: 0;
   margin-right: 0;
 }
+
 
 /* Body End */
 
