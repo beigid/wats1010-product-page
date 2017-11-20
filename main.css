@@ -150,9 +150,9 @@ body {
 
 
 #about, #product {
-      background-image: linear-gradient(to bottom, #FFF, #2D3E9A);
+ background-image: linear-gradient(to bottom, #FFF, #2D3E9A);
   padding-bottom: 70px;
-  border-top:     20px solid rgba(189, 189, 189, 0.5);
+  border-top: 20px solid rgba(189, 189, 189, 0.5);
 }
 
 
