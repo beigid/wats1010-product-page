@@ -1,8 +1,10 @@
 
-body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-   font-family: "Arial", sans-serif;
+/* 
+Header Start */
+
+header .logophoto {
+  position: relative;
+  top: -12px;
 }
 
 #about h2, #product h2 {
@@ -14,10 +16,19 @@ body {
   font-family: "Impact", sans-serif;
 }
 
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .purchasebox h3 {
   padding-bottom: 20px;
 }
+/* Header End */
 
+
+/* 
 .navbar li {
       margin-right: 10px;
 }
@@ -26,38 +37,114 @@ body {
    padding-left: 0;
 }
 
-
-
-.navbar-collapse {
- background-color: #6c30df;
+header .navbar-default {
+    background-color: transparent;
+  border: 0;
 }
 
-.navbar-inverse .navbar-nav {
+.navbar-collapse {
+background: linear-gradient(rgb(78, 61, 240), rgb(0, 246, 255));
+}
+
+.navbar-default .navbar-nav {
   font-family: Georgia;
 }
 
-.navbar-inverse .navbar-brand {
+.navbar-default .navbar-brand {
   color: black;
   font-size: 35px;
   font-family: Georgia;
   
 }
 
-.navbar-inverse .navbar-nav>li>a {
+.navbar-default .navbar-nav>li>a {
   color: black;
-  text-shadow: none;
+  text-shadow: -1px -1px white;
+font-size: 30px;
+} */
+
+
+
+/* 
+Nav Bar Start */
+
+header .navbar {
+    padding-top: 30px;
+}
+
+header .navbar-default {
+    background: none;
+  background-color: rgba(0,0,0, .09);
+    border: none;
+  box-shadow: none;
+}
+
+header .navbar-default .navbar-nav a, .navbar-brand {
+    color: black;
+    padding: 5px 8px;
+  font-size: 25px;
+}
+
+header .navbar-default {
+  margin-bottom: 0px;
+padding-top: 0px;
+padding-bottom: 5px;
 }
 
 
+header .navbar-default .navbar-nav a:hover {
+    color: #EEC856;
+}
+
+header .navbar-default .navbar-nav .active a {
+    font-weight: 700;
+    color: #EEC856;
+    background: transparent;
+    border-bottom: 4px solid #EEC856;
+    text-shadow: none;
+}
+
+header .navbar-default .navbar-nav .active a:hover {
+    color: #E15D5F;
+    background: transparent;
+    text-shadow: none;
+}
 
 
-footer .navbar-default {
-  background: transparent;
-  border: 0;
+header .navbar-brand {
+   background: url("main-icon.png");
+    background-repeat: no-repeat;
+    height: auto;  
+  display: block;
+  padding-bottom: 10px;
+}
+
+header .navbar-default .navbar-header a {
+ padding-left: 67px;
+padding-top: 63px;
+  color: #121289;
+   text-shadow: 1px 1px white;
+  font-family: arial;
+}
+
+ul.navbar-right {
+  padding-top: 30px;
+}
+
+/* Nav Bar End */
+
+
+/* 
+Body Start */
+
+body {
+    padding-bottom: 20px;
+   font-family: "Arial", sans-serif;
 }
 
 .img-responsive {
   margin: auto;
+  width: 100%;
 }
 
 .purchase {
@@ -82,6 +169,8 @@ footer .navbar-default {
       height: 500px;
     max-width: 100;
     background-attachment: fixed;
+  background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #space2 {
@@ -89,8 +178,28 @@ footer .navbar-default {
       height: 500px;
     max-width: 100;
     background-attachment: fixed;
+  background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.firstsection {
-  background: linear-gradient(rgba(141,153,174,0.8), rgba(141,153,174,0.5));
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
 }
+
+/* Body End */
+
+
+
+
+/* 
+Footer Start */
+
+footer .navbar-default {
+  background: transparent;
+  border: 0;
+}
+
+/* Footer End */
+

@@ -15,7 +15,7 @@
   <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
              support bookmarking. -->
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <link rel="favicon" href="favicon.ico">
+  <link rel="favicon" href="favicon-new.ico">
 
 </head>
 
@@ -24,21 +24,20 @@
     <header>
 
       <!--     Nav Bar -->
-      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<!--       <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="navbar-header">
-          <!-- create a navigation toggle button -->
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
                     <span class="sr-only">Toggle Naviation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-          <a class="navbar-brand" href="index.html"> API Superstore </a>
+          <a class="navbar-brand" href="index.html"><img src="assets/logos/logoresized.png" class="logophoto">  </a>
         </div>
         <div class="collapse navbar-collapse" id="navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <a href="#home">Home</a>
+              <a href="index.html">Home</a>
             </li>
             <li>
               <a href="#about">About</a>
@@ -54,11 +53,38 @@
             </li>
           </ul>
         </div>
-      </nav>
-      <!-- Nav Bar Close -->
-
+      </nav> -->
+      
+      <header>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"> API Superstore </a>
+            </div><!-- navbar-header -->
+            <div class="collapse navbar-collapse" id="collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#product">Product</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+           
+      <!-- Nav Bar Close -->   
+      
+      
+      
       <div class="firstsection">
-      <img src="smcoverphoto.png" alt="API Main Page Photo" class="img-responsive">
+      <img src="newcoverphoto.png" alt="API Main Page Photo" class="img-responsive">
       </div>
     </header>
  
@@ -119,8 +145,10 @@
  <!--  Transition Photo     --> 
   
   
-</body>
+
 <hr>
+
+  
 <footer>
   <div class="container-fluid">
     <div class="row">
@@ -129,18 +157,28 @@
         <p> All contents &copy; 2017 <a href="index.html"> API Superstore </a> All rights reserves. </p>
       </div>
       <div class="col-sm-6">
-        <nav class="navbar navbar-default" role="nevigation">
+<!--         <nav class="navbar navbar-default" role="nevigation">
           <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
             <li><a href="#about"> About </a> </i>
               <li><a href="#product"> Product </a> </i>
                 <li><a href="#testimonials"> Testimonials </a> </i>
                   <li><a href="#contact"> Contact </a></i>
 
           </ul>
-        </nav>
+        </nav> -->
       </div>
     </div>
   </div>
 </footer>
+    
+ <!-- jQuery -->
+  <script src="js/jquery.js"></script>
 
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+    
+</body>
 </html>
