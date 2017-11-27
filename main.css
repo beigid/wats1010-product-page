@@ -7,7 +7,7 @@ header .logophoto {
   top: -12px;
 }
 
-#about h2, #product h2 {
+#about h2, #product h2, #testimonials h2 {
   text-align: center;
   padding-top: 60px;
   padding-bottom: 30px;
@@ -16,6 +16,20 @@ header .logophoto {
   font-family: "Impact", sans-serif;
 }
 
+#testimonials h2 {
+  margin-bottom: 20px;
+}
+
+#about {
+  font-family: "Oswald";
+}
+
+#about h3.aboutheader, #product h3.productheader {
+  text-align: center;
+  font-weight: 700;
+}
+
+
 
 .container-fluid {
   padding-left: 0;
@@ -23,7 +37,10 @@ header .logophoto {
 }
 
 .purchasebox h3 {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  font-family: "Oswald";
+  font-size: 50px;
+  margin-top: 0;
 }
 /* Header End */
 
@@ -82,7 +99,8 @@ header .navbar-default {
 header .navbar-default .navbar-nav a, .navbar-brand {
     color: black;
     padding: 5px 8px;
-  font-size: 25px;
+  font-size: 20px;
+  font-family: "Oswald";
 }
 
 header .navbar-default {
@@ -102,7 +120,9 @@ header .navbar-default .navbar-nav .active a {
     background: transparent;
     border-bottom: 4px solid #EEC856;
     text-shadow: none;
+  font-family: "Oswald"
 }
+
 
 header .navbar-default .navbar-nav .active a:hover {
     color: #E15D5F;
@@ -119,12 +139,17 @@ header .navbar-brand {
   padding-bottom: 10px;
 }
 
+header .navbar-brand a {
+  font-family: 'Bitter';
+  font-size: 30px;
+}
+
 header .navbar-default .navbar-header a {
  padding-left: 67px;
 padding-top: 63px;
   color: #121289;
    text-shadow: 1px 1px white;
-  font-family: arial;
+  font-family: "Oswald", sans-serif;
 }
 
 ul.navbar-right {
@@ -139,7 +164,7 @@ Body Start */
 
 body {
     padding-bottom: 20px;
-   font-family: "Arial", sans-serif;
+   font-family: "Oswald", sans-serif;
 }
 
 
@@ -148,14 +173,19 @@ body {
   width: 100%;
 }
 
+img.testimonial {
+  max-width: 200px;
+}
 
-#about, #product {
+#about, #product, #testimonials, #contact {
  background-image: linear-gradient(to bottom, #FFF, #2D3E9A);
   padding-bottom: 70px;
   border-top: 20px solid rgba(189, 189, 189, 0.5);
 }
 
-
+#contact {
+  text-align: center;
+}
 
 .purchase {
   text-align: center;
@@ -164,16 +194,33 @@ body {
 }
 
 .purchasebox {
-    border: 3px black dotted;
+    border: 3px black solid;
+  border-radius: 15%;
       width: 400px;
     margin: auto;
-    height: 190px;
+    height: 290px;
   max-width: 100%;
   padding-top: 20px; 
   padding-bottom: 20px;
-  background-color: yellow;
+  background-image: linear-gradient(to left, #c59440, #F8FDE7);
+  
 }
 
+.purchase .purchasepadding {
+  padding-top: 120px;
+}
+
+.buttonpadding {
+  padding-top: 15px;
+}
+
+.price {
+  font-family: "Barlow";
+  font-size: 50px;
+      color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+}
 
 
 #space {
@@ -194,12 +241,25 @@ body {
     background-size: cover;
 }
 
+#space3 {
+  background-image: url("spacephoto4.jpg");
+      height: 500px;
+    max-width: 100;
+    background-attachment: fixed;
+  background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .row {
   margin-left: 0;
   margin-right: 0;
 }
 
+
+.photo img {
+  margin-bottom: 15px;
+}
 
 /* Body End */
 
@@ -216,3 +276,10 @@ footer .navbar-default {
 
 /* Footer End */
 
+
+@media only screen and (max-width: 959px) {
+  img.pricetag {
+    max-width: 150px;
+    height: auto;
+  }
+    }
