@@ -7,7 +7,7 @@ header .logophoto {
   top: -12px;
 }
 
-#about h2, #product h2, #testimonials h2 {
+#about h2, #product h2, #testimonials h2, #contact h2 {
   text-align: center;
   padding-top: 60px;
   padding-bottom: 30px;
@@ -16,8 +16,8 @@ header .logophoto {
   font-family: "Impact", sans-serif;
 }
 
-#testimonials h2 {
-  margin-bottom: 20px;
+#about h2, #testimonials h2, #contact h2, #product h2 {
+  margin-bottom: 30px;
 }
 
 #about {
@@ -28,7 +28,6 @@ header .logophoto {
   text-align: center;
   font-weight: 700;
 }
-
 
 
 .container-fluid {
@@ -45,40 +44,6 @@ header .logophoto {
 /* Header End */
 
 
-/* 
-.navbar li {
-      margin-right: 10px;
-}
-
-.navbar li a {
-   padding-left: 0;
-}
-
-header .navbar-default {
-    background-color: transparent;
-  border: 0;
-}
-
-.navbar-collapse {
-background: linear-gradient(rgb(78, 61, 240), rgb(0, 246, 255));
-}
-
-.navbar-default .navbar-nav {
-  font-family: Georgia;
-}
-
-.navbar-default .navbar-brand {
-  color: black;
-  font-size: 35px;
-  font-family: Georgia;
-  
-}
-
-.navbar-default .navbar-nav>li>a {
-  color: black;
-  text-shadow: -1px -1px white;
-font-size: 30px;
-} */
 
 
 
@@ -106,7 +71,7 @@ header .navbar-default .navbar-nav a, .navbar-brand {
 header .navbar-default {
   margin-bottom: 0px;
 padding-top: 0px;
-padding-bottom: 5px;
+padding-bottom: 0px;
 }
 
 
@@ -132,7 +97,7 @@ header .navbar-default .navbar-nav .active a:hover {
 
 
 header .navbar-brand {
-   background: url("main-icon.png");
+   background: url("main-icon2.png");
     background-repeat: no-repeat;
     height: auto;  
   display: block;
@@ -145,8 +110,8 @@ header .navbar-brand a {
 }
 
 header .navbar-default .navbar-header a {
- padding-left: 67px;
-padding-top: 63px;
+padding-left: 48px;
+    padding-top: 50px;
   color: #121289;
    text-shadow: 1px 1px white;
   font-family: "Oswald", sans-serif;
@@ -167,6 +132,9 @@ body {
    font-family: "Oswald", sans-serif;
 }
 
+.aboutheader p {
+  font-size: 16px;
+}
 
 .img-responsive {
   margin: auto;
@@ -175,6 +143,19 @@ body {
 
 img.testimonial {
   max-width: 200px;
+}
+
+.background {
+  padding: 10px;
+  border-radius: 10%;
+  background-image: linear-gradient(to right, #FFF, #56948b);
+  font-family: "Oswald";
+}
+
+.blockquote-footer {
+      font-weight: 700;
+    padding-left: 55px;
+    color: #14262c;
 }
 
 #about, #product, #testimonials, #contact {
@@ -186,6 +167,17 @@ img.testimonial {
 #contact {
   text-align: center;
 }
+
+#product ul {
+  list-style-type: none;
+  font-size: 20px;
+  font-family: "Bitter";
+}
+
+#product ul span {
+  font-size: 30px;
+}
+
 
 .purchase {
   text-align: center;
