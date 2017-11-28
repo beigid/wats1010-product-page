@@ -7,7 +7,7 @@ header .logophoto {
   top: -12px;
 }
 
-#about h2, #product h2, #testimonials h2, #contact h2 {
+#about h2, #product h2, #testimonials h2 {
   text-align: center;
   padding-top: 60px;
   padding-bottom: 30px;
@@ -16,8 +16,18 @@ header .logophoto {
   font-family: "Impact", sans-serif;
 }
 
+#contact h2 {
+  padding-top: 30px;
+}
+
 #about h2, #testimonials h2, #contact h2, #product h2 {
   margin-bottom: 30px;
+}
+
+
+#about h2:hover , #testimonials h2:hover , #contact h2:hover , #product h2:hover {
+  color: white;
+  text-shadow: 1px 1px black;
 }
 
 #about {
@@ -130,9 +140,11 @@ Body Start */
 body {
     padding-bottom: 20px;
    font-family: "Oswald", sans-serif;
+  position: relative;
+ 
 }
 
-.aboutheader p {
+#about p {
   font-size: 16px;
 }
 
@@ -142,14 +154,27 @@ body {
 }
 
 img.testimonial {
-  max-width: 200px;
+  max-width: 350px;
+}
+
+#testimonials .background:hover {
+  background-color: rgba:(239,240,196,.9);
 }
 
 .background {
   padding: 10px;
   border-radius: 10%;
-  background-image: linear-gradient(to right, #FFF, #56948b);
+  background-image: linear-gradient(to right, #FFF, #7b599f);
   font-family: "Oswald";
+  max-width: 200px;
+}
+
+#testimonials p::hover {
+    background-color: rgba:(239,240,196,.9);
+}
+
+.firstquote {
+  padding-bottom: 30px;
 }
 
 .blockquote-footer {
@@ -162,6 +187,10 @@ img.testimonial {
  background-image: linear-gradient(to bottom, #FFF, #2D3E9A);
   padding-bottom: 70px;
   border-top: 20px solid rgba(189, 189, 189, 0.5);
+}
+
+.textalign {
+  text-align: center;
 }
 
 #contact {
@@ -256,6 +285,57 @@ img.testimonial {
 /* Body End */
 
 
+
+/*
+Aside Start */
+
+#social {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width:130px;
+  height: 70px;
+  background: -webkit-linear-gradient(#fae3fa, #9800ff);
+  transition: 2s height;
+  border-radius: 5%;
+}
+
+
+#social:hover {
+  height: 210px;
+}
+
+aside h2 {
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px black;
+  font-family: "Oswald";
+  margin-bottom: 5px;
+}
+
+ul.social-links {
+  padding-left: 50px;
+  
+}
+
+ul.social-links li {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.social-links li {
+  text-decoration: none;
+  margin: 0;
+  padding: 10px 51px 10px 20px;
+}
+
+#social i.fa-twitter, i.fa-youtube-play, i.fa-instagram {
+  color: white;
+}
+
+
+/* Aside End */
 
 
 /* 

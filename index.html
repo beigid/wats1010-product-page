@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="The API Superstore Homefront Main Page">
+  <meta name="author" content="Darya Beigi">
+  
   <title>API Superstore</title>
   <!-- Bootstrap CSS Framework -->
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
@@ -14,15 +16,12 @@
   <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="main.css">
-
-  <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
-             support bookmarking. -->
-  <link rel="apple-touch-icon" href="favicon-new.ico">
-  <link rel="favicon" href="favicon-new.ico">
+ <link rel="shortcut icon" href="favicon-new.ico" type="image/x-icon"> 
+    <link rel="shortcut icon" href="favicon-new.ico" type="image/x-icon">   
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar-fixed-top">
   <div class="container-fluid">
 
     <header>
@@ -97,7 +96,7 @@
           <li> <i class="fa fa-check-square fa-3x" aria-hidden="true"></i><span>Smooth Intergration </span></li>
           <li> <i class="fa fa-check-square fa-3x" aria-hidden="true"></i><span> Full-Online Access to Tools</span> </li>
           <li> <i class="fa fa-check-square fa-3x" aria-hidden="true"></i><span> Excellent Support Team</span> </li>
-          <li> <i class="fa fa-check-square fa-3x" aria-hidden="true"></i><span>30 Day Full-Refund</span> </li>
+          <li> <i class="fa fa-check-square fa-3x" aria-hidden="true"></i><span> 30 Day Full-Refund</span> </li>
         </ul>
       </div>
       <div class="col-md-6">
@@ -130,32 +129,34 @@
         
     <!-- Testimonials -->
     <div class="row" id="testimonials">
+      <div class="container textalign">
+  
       <h2> Testimonials </h2>
         
         
-      <div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-1">
-        <img class="img-circle testimonial" src="employee1-rsz.jpg" alt="Testimonial Photo">
-         <p class="background">"My experience was amazing with this product! I was skeptical at first, but I didn't realize how much I needed this until I had it" 
+      <div class="photo col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0">
+        <img class="img-circle testimonial" src="Professional-Man-rsz.jpg" alt="Testimonial Photo">
+         <p class="background firstquote">"My experience was amazing with this product! I was skeptical at first, but I didn't realize how much I needed this until I had it" 
         <footer class="blockquote-footer"> - Bobby B., 2016 </footer>
       </div>
                   
                 
-      <div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2">
+      <div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-4 col-md-offset-0">
         <img class="img-circle testimonial" src="employee2-rsz.jpg" alt="Testimonial Photo">
-            
-            <p class="background">"I love this product! I will
+         
+                    
+            <p class="background">
+              "I love this product! I will
             never go back to doing all
             this work on my own. The
             fast and helpful tools it
             brings to to the consumer
             is amazing and definitely
             worth the money."
-              <footer class="blockquote-footer"> - Sandra K., 2017 </footer>
-     
+              <footer class="blockquote-footer"> - Sandra K., 2017 </footer>  
       </div>
-      
-      
-        <div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2">
+     
+        <div class="photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-4 col-md-offset-0">
           <img class="img-circle testimonial" src="employee4-rsz.jpg" alt="Testimonial Photo">
           <p class="background"> "I am not the most
                 tech-savvy individual, and I
@@ -163,11 +164,10 @@
                 team to not only be very
                 easy to understand and
                 resourceful, but also
-                incredibly fast. Any
-                company could learn from a
-            team like this!"</b>
+                incredibly fast."</b>
           <footer class="blockquote-footer"> - John D., 2017 </footer>
       </div>
+         </div>
     </div>
 
     <!--  Transition Photo     -->
@@ -214,8 +214,7 @@
         </form>
       </div>
         </div>
-        
-        
+             
     <hr>
 
 
@@ -231,6 +230,16 @@
         </div>
       </div>
     </footer>
+      
+       <aside id="social">
+   <h2> Share! </h2>
+<ul class="social-links">
+  <li class="twitter"><a href="https://twitter.com/" title="Twitter Homepage" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+  <li class="instagram"><a href="https://www.instagram.com/?hl=en" title="Instragram Homepage" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+  <li class="youtube"><a href="https://www.youtube.com/" title="Youtube Homepage" target="_blank"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a></li>
+   </ul>
+      </aside>
+      
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
